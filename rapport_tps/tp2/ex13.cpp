@@ -14,10 +14,10 @@ public:
 };
 
 int main() {
-    int nombreEtudiants;
+    int nombreEtudiants = 3;
 
-    std::cout << "Entrez le nombre d'étudiants : ";
-    std::cin >> nombreEtudiants;
+    // std::cout << "Entrez le nombre d'étudiants : ";
+    // std::cin >> nombreEtudiants;
 
     Etudiant *etudiants = new Etudiant[nombreEtudiants]
 	{
