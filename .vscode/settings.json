@@ -1,5 +1,8 @@
 {
 	"files.associations": {
+		"*.sqlbook": "sql",
+		"*.ndjson": "jsonl",
+		"*.dbclient-js": "javascript",
 		"array": "cpp",
 		"atomic": "cpp",
 		"bit": "cpp",
@@ -57,6 +60,7 @@
 		"text_encoding": "cpp",
 		"cinttypes": "cpp",
 		"typeinfo": "cpp",
-		"variant": "cpp"
+		"variant": "cpp",
+		"list": "cpp"
 	}
 }

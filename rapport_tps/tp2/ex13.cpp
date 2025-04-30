@@ -1,13 +1,14 @@
 #include <iostream>
 #include <string>
 
-class Etudiant {
+class Etudiant
+{
 	private:
 		std::string nom;
 		int age;
 	
 	public:
-		Etudiant() : nom("Inconnu"), age(0) {} // constructeur
+		Etudiant() : nom("Inconnu"), age(0) {}
 		Etudiant(std::string nom, int age) : nom(nom), age(age) {}
 		void afficher() const {
 			std::cout << "le nom : " << nom << " / l'age : " << age << std::endl;
