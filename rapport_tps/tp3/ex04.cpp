@@ -31,7 +31,6 @@ public:
 class Chat : public Animal {
 private:
     bool domestique;
-    
 public:
     Chat(string n, int a, bool d) : Animal(n, a), domestique(d) {}
     
